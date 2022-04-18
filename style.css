@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* head section design start  */
+.headsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  
+}
+.headtext{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.headtext h1{
+    font-size: 60px;
+}
+.headtext p{
+    font-size: 22px;
+}
+.button {
+
+    border: none;
+    color: white;
+    padding: 20px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    background: rgb(214,38,78);
+    background: linear-gradient(90deg, rgba(214,38,78,1) 0%, rgba(253,130,29,1) 0%, rgba(227,35,62,1) 100%, rgba(103,58,180,1) 100%, rgba(252,176,69,1) 100%);
+    margin-top: 15px;
+  }
+
+  /* head section design end  */
+
+  /* about me section design start  */
+.aboutme{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    background-image: url(image/shapes/7.png);
+}
+.aboutImage img{
+    width: 300px;
+}
+.aboutImage{
+    padding-left: 140px;
+}
+.abouttext{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.abouttext h1{
+    font-size: 50px;
+}
+.abouttext p{
+    font-size: 20px;
+}
+/* about me section end  */
+
+
+.midsection h1{
+    font-size: 45px;
+}
+.midsection p{
+    font-size: 20px;
+}
+
+
+/* designing cards */
+.cardarea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  column-gap: 67px;
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 ;
+}
+
+/* card design end  */
+
+/* counter section start  */
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 220px;
+    width: 87%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.textarea{
+    text-align: center;
+    margin: auto;
+}
+
+.text{
+    float: left;
+    padding: 100px;
+}
+/* counter section end  */
+
+/* footer section starts */
+
+footer{
+    background-color: black;
+    height: 280px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 100px;
+}
+footer p{
+    margin-top: 20px;
+    font-size: 20px; 
+
+}
+
+.orangecolor{
+    
+    color: orange;
+}
+.footer .graycolor{
+    color: grey;
+}
+.footer .mr{
+    font-size: 30px;
+}
+
+/* footer section ends  */
